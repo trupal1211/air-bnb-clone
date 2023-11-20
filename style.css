@@ -1,0 +1,511 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden; 
+}
+
+/*  ---------  heading bar ------  */
+
+.heading{
+    margin: 10px 70px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logo{
+    color: #ff385c;
+    margin-top: 8px;
+    margin-bottom: -6px;
+    height: 50px;
+    width: 110px;
+}
+
+.input{ 
+    width: 300px;
+    padding: 16px 18px;
+    margin: 0;
+    border: .5px solid lightgrey;
+    border-radius: 40px;
+    box-sizing: border-box;
+    position: relative;
+    outline: none;
+    
+}
+
+.input::placeholder{
+    color: rgb(123, 123, 123);
+    font-size: 14px;
+    font-weight: 625;
+}
+
+.second{
+    position: relative;
+}
+
+.search-icon{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    background-color: #ff385c;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+}
+
+
+
+.heading_btn{
+    padding: 8px;
+    border: none;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.heading_btn:hover{
+    background-color: rgb(244, 244, 244);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.profile{
+    border: 1px solid darkgray;
+    border-radius: 32px;
+    padding: 6px;
+    padding-left: 10px;
+    display: flex;
+    gap: 6px;
+}
+
+.third{
+    width: 240px;
+    display: flex;
+    justify-content:space-between;
+    margin: 0;
+}
+
+
+
+.line{
+    width: 100vw;
+    border-top: .5px solid rgb(204, 204, 204);
+}
+
+/* ------------  home page & gallary part  ----------- */
+
+.main_page{
+    margin: 35px 70px 0 70px;
+}
+
+.mainline{
+    margin-bottom: 4px;
+    font-size: 26px;
+}
+
+.subline{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 545;
+}
+
+.subline1{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.subline2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.gallary{
+    width: 100%;
+    height: 54%;
+    margin: 45px 0;
+    display: flex;
+    gap: 6px;
+}
+
+.img1{
+    width: 50%;
+    height: 306px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.img2{
+    width: 100%;
+    height: 150px;
+    
+}
+
+.mt-6{
+    margin-top: 6px;
+}
+
+.w-50{
+    width: 50%;
+}
+
+/*  -------------  details block  -------------  */
+
+.details-container{
+    margin: 70px 70px 0 70px;
+    width:calc(100vw-140px) ;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -----------  left side part ----------  */
+
+.left-box{
+    width: 58%;
+}
+
+.details-heading-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.sticky-card{
+    width: 35%;
+}
+
+.bolder{
+    font-weight: bolder;
+    font-size: large;
+}
+
+.details_mainline{
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.details_subline{
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.profile-img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+.relative{
+    position: relative;
+}
+
+.profile-svg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.left-line{
+    width: 100%;
+    margin: 30px 0;
+    border-top: .5px solid rgb(208,208,208 );
+}
+
+.m-30-10{
+    margin: 30px 10px;
+}
+
+.blackline{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.grayline{
+    font-size: 16px;
+    color: rgb(170, 170, 170);
+    font-weight: lighter;
+    margin: 0 0 15px 0;
+}
+
+.aircover-logo{
+    width: 125px;
+}
+
+.m-15{
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+a{
+    color: black;
+    font-size: 16px;
+}
+
+.card{
+    width: 210px;
+    height: 150px;
+    border: .5px solid rgb(208, 208, 208);
+    border-radius: 14px;
+    padding: 30px 25px;
+    box-sizing: border-box;
+}
+
+.card-flex{
+    display: flex;
+    gap: 10px;
+}
+
+.card-heading{
+    margin-bottom: 2px;
+    font-size:18px; 
+    font-weight: bold;
+}
+
+.offers-details{
+    margin: 12px 0;
+}
+
+.details-flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 6px 0;
+}
+
+.details-flex p{
+    margin: 8px 0;
+    color: grey;
+    font-weight: normal;
+}
+
+.amenities-btn{
+    padding: 18px;
+    border: 1px solid black;
+    border-radius: 14px;
+    background-color: white;
+    margin: 18px 0 10px 0;
+}
+
+.offers-flex{
+    display: flex;
+    align-items: start;
+}
+
+
+/* ----------  right side sticky card  ------------ */
+
+.sticky-card{
+    margin:0;
+    height: 500px;
+    width: 34%;
+    border-radius: 14px;
+    padding:50px 20px 0 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 12px rgb(185, 185, 185) ;
+    position: sticky;
+    top:calc( (100vh - 500px)/2 );   /* */
+}
+
+.cardhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.big{
+    font-size: 18px;
+}
+
+.flex{
+    display: flex;
+    gap: 8px;
+}
+
+.price{
+    font-weight: bold;
+}
+.gray-font{
+    font-size: 14px;
+color:rgb(70,70,70);
+}
+
+
+.box{
+    margin-top: 20px;
+    width: 100%;
+    height: 120px;
+    box-sizing: border-box;
+    /* padding: 15px 10px; */
+    border: 1px solid gray;
+    border-radius: 14px;
+    font-size: 14px;
+}
+
+.box-flex{
+    display: flex;
+    height: 45px;
+}
+
+
+
+.halfbox p{
+    margin: 14px 10px;
+}
+
+.halfbox{
+    width: 50%;
+    height: 60px;
+}
+
+.left-border{
+    border-left: 1px solid gray;
+}
+
+
+.guestbox p{
+    margin: 14px 10px;
+}
+
+.flex-bt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    border-top: 1px solid gray;
+    margin: 15px 0 0 0px;
+}
+
+.svg{
+    width: 20px;
+    margin-right: 15px;
+    color:gray ;
+
+}
+
+.btn{
+    width: 100%;
+    margin: 20px 0;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(255,56,92);
+}
+
+.text-center{
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+
+.sticky-card .left-line{
+    margin-top:4px ;
+}
+
+.price-flex{
+    margin: 25px 0;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* --------------  ratings part  -------------- */
+
+.ratings{
+    margin: 30px 70px;
+}
+
+.ratings p{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.ratings .flex{
+    align-items: center;
+    gap: 10px;
+}
+
+.ratebox-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.rate-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.rate-flex p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: lighter !important;
+    color: rgb(70, 70, 70);
+}
+
+.rateline{
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+/* -----------  reviews part  --------------- */
+
+.reviews{
+    margin: 20px 70px 0 70px;
+}
+
+.reviews .flex{
+    gap: 70px;
+}
+
+.review{
+    margin: 40px 0;
+}
+
+.img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.reviewer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.data p{
+    margin: 2px;
+    font-size: 14px;
+    color: gray;
+}
+
+.desc{
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgb(85, 85, 85);
+}
+
+.reviews button{
+    margin-bottom: 4px;
+}
